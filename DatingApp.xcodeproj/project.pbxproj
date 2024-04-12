@@ -24,6 +24,9 @@
 		CDCB51032BC69E5A00672397 /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB51022BC69E5A00672397 /* CardsViewModel.swift */; };
 		CDCB51062BC69EAD00672397 /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB51052BC69EAD00672397 /* CardService.swift */; };
 		CDCB51092BC69F5200672397 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB51082BC69F5200672397 /* MockData.swift */; };
+		CDEEF7F62BC91F6F001782E9 /* SwipeActionButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEEF7F52BC91F6F001782E9 /* SwipeActionButtonsView.swift */; };
+		CDEEF7F82BC92117001782E9 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEEF7F72BC92117001782E9 /* SwipeAction.swift */; };
+		CDEEF7FA2BC92825001782E9 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEEF7F92BC92825001782E9 /* UserProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		CDCB51022BC69E5A00672397 /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
 		CDCB51052BC69EAD00672397 /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
 		CDCB51082BC69F5200672397 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		CDEEF7F52BC91F6F001782E9 /* SwipeActionButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionButtonsView.swift; sourceTree = "<group>"; };
+		CDEEF7F72BC92117001782E9 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
+		CDEEF7F92BC92825001782E9 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +144,7 @@
 		CD057DB22BC69951005D58D2 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				CDEEF7F92BC92825001782E9 /* UserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -166,6 +173,7 @@
 				CD057DBC2BC699A7005D58D2 /* SwipeActionIndicatorView.swift */,
 				CD057DBE2BC699B4005D58D2 /* UserInfoView.swift */,
 				CDCB50F72BC69C4F00672397 /* CardStackView.swift */,
+				CDEEF7F52BC91F6F001782E9 /* SwipeActionButtonsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -222,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				CDCB50FF2BC69E1700672397 /* CardModel.swift */,
+				CDEEF7F72BC92117001782E9 /* SwipeAction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -321,12 +330,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD057DBB2BC69994005D58D2 /* ImageScrollingOverlay.swift in Sources */,
+				CDEEF7FA2BC92825001782E9 /* UserProfileView.swift in Sources */,
 				CDCB51062BC69EAD00672397 /* CardService.swift in Sources */,
 				CD057DBF2BC699B4005D58D2 /* UserInfoView.swift in Sources */,
 				CD057DBD2BC699A7005D58D2 /* SwipeActionIndicatorView.swift in Sources */,
 				CDCB51092BC69F5200672397 /* MockData.swift in Sources */,
+				CDEEF7F82BC92117001782E9 /* SwipeAction.swift in Sources */,
 				CD057DC12BC699CC005D58D2 /* MainTabView.swift in Sources */,
 				CD057DA32BC69915005D58D2 /* ContentView.swift in Sources */,
+				CDEEF7F62BC91F6F001782E9 /* SwipeActionButtonsView.swift in Sources */,
 				CDCB51002BC69E1700672397 /* CardModel.swift in Sources */,
 				CDCB50F82BC69C4F00672397 /* CardStackView.swift in Sources */,
 				CD057DB72BC69977005D58D2 /* CardImageIndicatorView.swift in Sources */,
