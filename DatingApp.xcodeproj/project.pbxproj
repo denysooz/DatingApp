@@ -18,6 +18,10 @@
 		CD057DBF2BC699B4005D58D2 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD057DBE2BC699B4005D58D2 /* UserInfoView.swift */; };
 		CD057DC12BC699CC005D58D2 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD057DC02BC699CC005D58D2 /* MainTabView.swift */; };
 		CD057DC62BC699FF005D58D2 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD057DC52BC699FF005D58D2 /* SizeConstants.swift */; };
+		CD2BE24D2BCA81390006DDE4 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE24C2BCA81390006DDE4 /* CurrentUserProfileView.swift */; };
+		CD2BE24F2BCA819F0006DDE4 /* CurrentUserProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE24E2BCA819F0006DDE4 /* CurrentUserProfileHeaderView.swift */; };
+		CD2BE2522BCA881C0006DDE4 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE2512BCA881C0006DDE4 /* EditProfileView.swift */; };
+		CD2BE2542BCA88EA0006DDE4 /* ProfileImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE2532BCA88EA0006DDE4 /* ProfileImageGridView.swift */; };
 		CDCB50F82BC69C4F00672397 /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB50F72BC69C4F00672397 /* CardStackView.swift */; };
 		CDCB50FD2BC69DB400672397 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB50FC2BC69DB400672397 /* User.swift */; };
 		CDCB51002BC69E1700672397 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB50FF2BC69E1700672397 /* CardModel.swift */; };
@@ -42,6 +46,10 @@
 		CD057DBE2BC699B4005D58D2 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 		CD057DC02BC699CC005D58D2 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		CD057DC52BC699FF005D58D2 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
+		CD2BE24C2BCA81390006DDE4 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		CD2BE24E2BCA819F0006DDE4 /* CurrentUserProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileHeaderView.swift; sourceTree = "<group>"; };
+		CD2BE2512BCA881C0006DDE4 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		CD2BE2532BCA88EA0006DDE4 /* ProfileImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageGridView.swift; sourceTree = "<group>"; };
 		CDCB50F72BC69C4F00672397 /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
 		CDCB50FC2BC69DB400672397 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CDCB50FF2BC69E1700672397 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
@@ -144,7 +152,9 @@
 		CD057DB22BC69951005D58D2 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				CDEEF7F92BC92825001782E9 /* UserProfileView.swift */,
+				CD2BE24B2BCA811F0006DDE4 /* CurrentUserProfile */,
+				CD2BE2502BCA87E00006DDE4 /* EditProfile */,
+				CD2BE24A2BCA81120006DDE4 /* UserProfile */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -200,6 +210,32 @@
 				CD057DC52BC699FF005D58D2 /* SizeConstants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		CD2BE24A2BCA81120006DDE4 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				CDEEF7F92BC92825001782E9 /* UserProfileView.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		CD2BE24B2BCA811F0006DDE4 /* CurrentUserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				CD2BE24C2BCA81390006DDE4 /* CurrentUserProfileView.swift */,
+				CD2BE24E2BCA819F0006DDE4 /* CurrentUserProfileHeaderView.swift */,
+			);
+			path = CurrentUserProfile;
+			sourceTree = "<group>";
+		};
+		CD2BE2502BCA87E00006DDE4 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				CD2BE2512BCA881C0006DDE4 /* EditProfileView.swift */,
+				CD2BE2532BCA88EA0006DDE4 /* ProfileImageGridView.swift */,
+			);
+			path = EditProfile;
 			sourceTree = "<group>";
 		};
 		CDCB50F92BC69D8800672397 /* Shared */ = {
@@ -329,9 +365,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2BE2522BCA881C0006DDE4 /* EditProfileView.swift in Sources */,
 				CD057DBB2BC69994005D58D2 /* ImageScrollingOverlay.swift in Sources */,
+				CD2BE24D2BCA81390006DDE4 /* CurrentUserProfileView.swift in Sources */,
 				CDEEF7FA2BC92825001782E9 /* UserProfileView.swift in Sources */,
 				CDCB51062BC69EAD00672397 /* CardService.swift in Sources */,
+				CD2BE24F2BCA819F0006DDE4 /* CurrentUserProfileHeaderView.swift in Sources */,
 				CD057DBF2BC699B4005D58D2 /* UserInfoView.swift in Sources */,
 				CD057DBD2BC699A7005D58D2 /* SwipeActionIndicatorView.swift in Sources */,
 				CDCB51092BC69F5200672397 /* MockData.swift in Sources */,
@@ -340,6 +379,7 @@
 				CD057DA32BC69915005D58D2 /* ContentView.swift in Sources */,
 				CDEEF7F62BC91F6F001782E9 /* SwipeActionButtonsView.swift in Sources */,
 				CDCB51002BC69E1700672397 /* CardModel.swift in Sources */,
+				CD2BE2542BCA88EA0006DDE4 /* ProfileImageGridView.swift in Sources */,
 				CDCB50F82BC69C4F00672397 /* CardStackView.swift in Sources */,
 				CD057DB72BC69977005D58D2 /* CardImageIndicatorView.swift in Sources */,
 				CD057DB92BC69985005D58D2 /* CardView.swift in Sources */,
