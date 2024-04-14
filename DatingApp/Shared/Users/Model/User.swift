@@ -11,5 +11,8 @@ struct User: Identifiable, Hashable {
     let id: String
     let fullname: String
     var age: Int
+    var bio: String
+    var gender: String
+    var sexualOrientaion: String
     var profileImageURLs: [String]
 }

@@ -24,7 +24,7 @@ struct CurrentUserProfileView: View {
                     HStack {
                         Text("Name")
                         Spacer()
-                        Text(user.fullname)
+                        Text(MockData.currentUser.fullname)
                     }
 
                     HStack {

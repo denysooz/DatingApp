@@ -35,7 +35,7 @@ struct UserInfoView: View {
 
             }
 
-            Text("Some test bio...")
+            Text("\(user.bio)")
                 .font(.subheadline)
                 .lineLimit(2)
         }

@@ -17,7 +17,7 @@ struct EditProfileView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                ProfileImageGridView(user: user)
+                ProfileImageGridView(user: MockData.currentUser)
                     .padding()
 
                 VStack(spacing: 24) {
@@ -59,8 +59,10 @@ struct EditProfileView: View {
                             .fontWeight(.bold)
                             .padding(.leading)
 
+
+
                         HStack {
-                            Text("Man")
+                            Text("\(MockData.currentUser.gender)")
 
                             Spacer()
 
@@ -79,7 +81,7 @@ struct EditProfileView: View {
                                 .padding(.leading)
 
                             HStack {
-                                Text("Straight")
+                                Text("\(MockData.currentUser.sexualOrientaion)")
 
                                 Spacer()
 

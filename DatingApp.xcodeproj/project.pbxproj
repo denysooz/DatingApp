@@ -18,6 +18,8 @@
 		CD057DBF2BC699B4005D58D2 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD057DBE2BC699B4005D58D2 /* UserInfoView.swift */; };
 		CD057DC12BC699CC005D58D2 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD057DC02BC699CC005D58D2 /* MainTabView.swift */; };
 		CD057DC62BC699FF005D58D2 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD057DC52BC699FF005D58D2 /* SizeConstants.swift */; };
+		CD1115852BCC51D900E8E1D0 /* UserMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1115842BCC51D900E8E1D0 /* UserMatchView.swift */; };
+		CD1115882BCC56E400E8E1D0 /* MatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1115872BCC56E400E8E1D0 /* MatchManager.swift */; };
 		CD2BE24D2BCA81390006DDE4 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE24C2BCA81390006DDE4 /* CurrentUserProfileView.swift */; };
 		CD2BE24F2BCA819F0006DDE4 /* CurrentUserProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE24E2BCA819F0006DDE4 /* CurrentUserProfileHeaderView.swift */; };
 		CD2BE2522BCA881C0006DDE4 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE2512BCA881C0006DDE4 /* EditProfileView.swift */; };
@@ -46,6 +48,8 @@
 		CD057DBE2BC699B4005D58D2 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 		CD057DC02BC699CC005D58D2 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		CD057DC52BC699FF005D58D2 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
+		CD1115842BCC51D900E8E1D0 /* UserMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMatchView.swift; sourceTree = "<group>"; };
+		CD1115872BCC56E400E8E1D0 /* MatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchManager.swift; sourceTree = "<group>"; };
 		CD2BE24C2BCA81390006DDE4 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
 		CD2BE24E2BCA819F0006DDE4 /* CurrentUserProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileHeaderView.swift; sourceTree = "<group>"; };
 		CD2BE2512BCA881C0006DDE4 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
@@ -123,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				CD057DB02BC69949005D58D2 /* Cards */,
+				CD1115812BCC518700E8E1D0 /* Matches */,
 				CD057DB12BC6994D005D58D2 /* Messaging */,
 				CD057DB22BC69951005D58D2 /* Profile */,
 				CD057DB32BC69955005D58D2 /* Search */,
@@ -210,6 +215,31 @@
 				CD057DC52BC699FF005D58D2 /* SizeConstants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		CD1115812BCC518700E8E1D0 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				CD1115862BCC56D800E8E1D0 /* Manager */,
+				CD1115822BCC51C900E8E1D0 /* View */,
+			);
+			path = Matches;
+			sourceTree = "<group>";
+		};
+		CD1115822BCC51C900E8E1D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD1115842BCC51D900E8E1D0 /* UserMatchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD1115862BCC56D800E8E1D0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CD1115872BCC56E400E8E1D0 /* MatchManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		CD2BE24A2BCA81120006DDE4 /* UserProfile */ = {
@@ -378,6 +408,8 @@
 				CD057DC12BC699CC005D58D2 /* MainTabView.swift in Sources */,
 				CD057DA32BC69915005D58D2 /* ContentView.swift in Sources */,
 				CDEEF7F62BC91F6F001782E9 /* SwipeActionButtonsView.swift in Sources */,
+				CD1115882BCC56E400E8E1D0 /* MatchManager.swift in Sources */,
+				CD1115852BCC51D900E8E1D0 /* UserMatchView.swift in Sources */,
 				CDCB51002BC69E1700672397 /* CardModel.swift in Sources */,
 				CD2BE2542BCA88EA0006DDE4 /* ProfileImageGridView.swift in Sources */,
 				CDCB50F82BC69C4F00672397 /* CardStackView.swift in Sources */,
