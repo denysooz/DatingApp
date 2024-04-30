@@ -6,15 +6,22 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct DatingAppApp: App {
+    @StateObject var viewModel = AuthViewModel()
     @StateObject var matchManager = MatchManager()
+
+    init() {
+        FirebaseApp.configure()
+    }
 
     var body: some Scene {
         WindowGroup {
-            MainTabView()
+            ContentView()
                 .environmentObject(matchManager)
+                .environmentObject(viewModel)
         }
     }
 }

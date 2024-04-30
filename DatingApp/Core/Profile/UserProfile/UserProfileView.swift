@@ -10,7 +10,7 @@ import SwiftUI
 struct UserProfileView: View {
     @Environment(\.dismiss) var dismiss
     @State private var currentImageIndex = 0
-    let user: User
+    let user: UserProfile
 
     var body: some View {
         VStack {

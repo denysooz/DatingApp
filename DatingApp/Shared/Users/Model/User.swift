@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct User: Identifiable, Hashable {
+struct UserProfile: Identifiable, Hashable {
     let id: String
     let fullname: String
     var age: Int
@@ -15,4 +15,20 @@ struct User: Identifiable, Hashable {
     var gender: String
     var sexualOrientaion: String
     var profileImageURLs: [String]
+}
+
+struct UserAuthentication: Identifiable, Codable {
+    let id: String
+    let fullname: String
+    let email: String
+
+    var initials: String {
+        let formatter = PersonNameComponentsFormatter()
+        if let components = formatter.personNameComponents(from: fullname) {
+            formatter.style = .abbreviated
+            return formatter.string(from: components)
+        }
+
+        return ""
+    }
 }

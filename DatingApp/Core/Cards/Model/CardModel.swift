@@ -8,7 +8,7 @@
 import Foundation
 
 struct CardModel {
-    let user: User
+    let user: UserProfile
 }
 
 extension CardModel: Identifiable, Hashable {

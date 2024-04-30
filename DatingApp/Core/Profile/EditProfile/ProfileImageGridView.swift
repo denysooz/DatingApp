@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProfileImageGridView: View {
 
-    let user: User
+    let user: UserProfile
 
     var body: some View {
         LazyVGrid(columns: columns, spacing: 16) {

@@ -53,7 +53,7 @@ struct CardView: View {
 }
 
 private extension CardView {
-    var user: User {
+    var user: UserProfile {
         return model.user
     }
 

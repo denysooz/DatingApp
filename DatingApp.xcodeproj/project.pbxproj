@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CD057DA12BC69915005D58D2 /* DatingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD057DA02BC69915005D58D2 /* DatingAppApp.swift */; };
 		CD057DA32BC69915005D58D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD057DA22BC69915005D58D2 /* ContentView.swift */; };
-		CD057DA52BC69916005D58D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD057DA42BC69916005D58D2 /* Assets.xcassets */; };
 		CD057DA82BC69916005D58D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD057DA72BC69916005D58D2 /* Preview Assets.xcassets */; };
 		CD057DB72BC69977005D58D2 /* CardImageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD057DB62BC69977005D58D2 /* CardImageIndicatorView.swift */; };
 		CD057DB92BC69985005D58D2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD057DB82BC69985005D58D2 /* CardView.swift */; };
@@ -24,6 +23,17 @@
 		CD2BE24F2BCA819F0006DDE4 /* CurrentUserProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE24E2BCA819F0006DDE4 /* CurrentUserProfileHeaderView.swift */; };
 		CD2BE2522BCA881C0006DDE4 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE2512BCA881C0006DDE4 /* EditProfileView.swift */; };
 		CD2BE2542BCA88EA0006DDE4 /* ProfileImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE2532BCA88EA0006DDE4 /* ProfileImageGridView.swift */; };
+		CDAA26872BDFA92B00C6F629 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CDAA26862BDFA92B00C6F629 /* FirebaseAuth */; };
+		CDAA26892BDFA92B00C6F629 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CDAA26882BDFA92B00C6F629 /* FirebaseFirestore */; };
+		CDAA268B2BDFA92B00C6F629 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CDAA268A2BDFA92B00C6F629 /* FirebaseFirestoreSwift */; };
+		CDAA268D2BDFA92B00C6F629 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CDAA268C2BDFA92B00C6F629 /* FirebaseStorage */; };
+		CDAA26942BDFABAE00C6F629 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA26932BDFABAE00C6F629 /* AuthViewModel.swift */; };
+		CDAA26962BDFAE9300C6F629 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA26952BDFAE9300C6F629 /* LoginView.swift */; };
+		CDAA26982BDFAE9F00C6F629 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA26972BDFAE9F00C6F629 /* RegistrationView.swift */; };
+		CDAA269B2BDFBA5900C6F629 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA269A2BDFBA5900C6F629 /* InputView.swift */; };
+		CDAA269D2BDFBAFC00C6F629 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA269C2BDFBAFC00C6F629 /* SettingsRowView.swift */; };
+		CDAA26A02BDFBC7D00C6F629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAA269F2BDFBC7D00C6F629 /* Assets.xcassets */; };
+		CDAA26A22BDFBF4700C6F629 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDAA26A12BDFBF4700C6F629 /* GoogleService-Info.plist */; };
 		CDCB50F82BC69C4F00672397 /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB50F72BC69C4F00672397 /* CardStackView.swift */; };
 		CDCB50FD2BC69DB400672397 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB50FC2BC69DB400672397 /* User.swift */; };
 		CDCB51002BC69E1700672397 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB50FF2BC69E1700672397 /* CardModel.swift */; };
@@ -39,7 +49,6 @@
 		CD057D9D2BC69915005D58D2 /* DatingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD057DA02BC69915005D58D2 /* DatingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingAppApp.swift; sourceTree = "<group>"; };
 		CD057DA22BC69915005D58D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CD057DA42BC69916005D58D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD057DA72BC69916005D58D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD057DB62BC69977005D58D2 /* CardImageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageIndicatorView.swift; sourceTree = "<group>"; };
 		CD057DB82BC69985005D58D2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -54,6 +63,13 @@
 		CD2BE24E2BCA819F0006DDE4 /* CurrentUserProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileHeaderView.swift; sourceTree = "<group>"; };
 		CD2BE2512BCA881C0006DDE4 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		CD2BE2532BCA88EA0006DDE4 /* ProfileImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageGridView.swift; sourceTree = "<group>"; };
+		CDAA26932BDFABAE00C6F629 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		CDAA26952BDFAE9300C6F629 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CDAA26972BDFAE9F00C6F629 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		CDAA269A2BDFBA5900C6F629 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		CDAA269C2BDFBAFC00C6F629 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		CDAA269F2BDFBC7D00C6F629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDAA26A12BDFBF4700C6F629 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CDCB50F72BC69C4F00672397 /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
 		CDCB50FC2BC69DB400672397 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CDCB50FF2BC69E1700672397 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
@@ -70,6 +86,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDAA26872BDFA92B00C6F629 /* FirebaseAuth in Frameworks */,
+				CDAA268D2BDFA92B00C6F629 /* FirebaseStorage in Frameworks */,
+				CDAA26892BDFA92B00C6F629 /* FirebaseFirestore in Frameworks */,
+				CDAA268B2BDFA92B00C6F629 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,13 +116,13 @@
 			isa = PBXGroup;
 			children = (
 				CD057DAE2BC69939005D58D2 /* App */,
+				CDAA26992BDFB9DC00C6F629 /* Components */,
 				CD057DAF2BC69942005D58D2 /* Core */,
 				CD057DC22BC699E7005D58D2 /* Extensions */,
+				CDAA269F2BDFBC7D00C6F629 /* Assets.xcassets */,
+				CD057DA62BC69916005D58D2 /* Preview Content */,
 				CDCB50F92BC69D8800672397 /* Shared */,
 				CD057DC32BC699F0005D58D2 /* Utils */,
-				CD057DA22BC69915005D58D2 /* ContentView.swift */,
-				CD057DA42BC69916005D58D2 /* Assets.xcassets */,
-				CD057DA62BC69916005D58D2 /* Preview Content */,
 			);
 			path = DatingApp;
 			sourceTree = "<group>";
@@ -126,10 +146,13 @@
 		CD057DAF2BC69942005D58D2 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				CDAA26902BDFAA1D00C6F629 /* Authentication */,
 				CD057DB02BC69949005D58D2 /* Cards */,
 				CD1115812BCC518700E8E1D0 /* Matches */,
 				CD057DB12BC6994D005D58D2 /* Messaging */,
 				CD057DB22BC69951005D58D2 /* Profile */,
+				CDAA26A12BDFBF4700C6F629 /* GoogleService-Info.plist */,
+				CDAA269E2BDFBB2F00C6F629 /* Root */,
 				CD057DB32BC69955005D58D2 /* Search */,
 				CD057DB42BC6995C005D58D2 /* TabBar */,
 			);
@@ -268,6 +291,49 @@
 			path = EditProfile;
 			sourceTree = "<group>";
 		};
+		CDAA26902BDFAA1D00C6F629 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA26922BDFAA2B00C6F629 /* ViewModel */,
+				CDAA26912BDFAA2800C6F629 /* View */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		CDAA26912BDFAA2800C6F629 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA26952BDFAE9300C6F629 /* LoginView.swift */,
+				CDAA26972BDFAE9F00C6F629 /* RegistrationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDAA26922BDFAA2B00C6F629 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA26932BDFABAE00C6F629 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CDAA26992BDFB9DC00C6F629 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA269A2BDFBA5900C6F629 /* InputView.swift */,
+				CDAA269C2BDFBAFC00C6F629 /* SettingsRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CDAA269E2BDFBB2F00C6F629 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				CD057DA22BC69915005D58D2 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
 		CDCB50F92BC69D8800672397 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,6 +407,12 @@
 			dependencies = (
 			);
 			name = DatingApp;
+			packageProductDependencies = (
+				CDAA26862BDFA92B00C6F629 /* FirebaseAuth */,
+				CDAA26882BDFA92B00C6F629 /* FirebaseFirestore */,
+				CDAA268A2BDFA92B00C6F629 /* FirebaseFirestoreSwift */,
+				CDAA268C2BDFA92B00C6F629 /* FirebaseStorage */,
+			);
 			productName = DatingApp;
 			productReference = CD057D9D2BC69915005D58D2 /* DatingApp.app */;
 			productType = "com.apple.product-type.application";
@@ -369,6 +441,9 @@
 				Base,
 			);
 			mainGroup = CD057D942BC69915005D58D2;
+			packageReferences = (
+				CDAA26852BDFA92B00C6F629 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = CD057D9E2BC69915005D58D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -384,7 +459,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD057DA82BC69916005D58D2 /* Preview Assets.xcassets in Resources */,
-				CD057DA52BC69916005D58D2 /* Assets.xcassets in Resources */,
+				CDAA26A02BDFBC7D00C6F629 /* Assets.xcassets in Resources */,
+				CDAA26A22BDFBF4700C6F629 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +472,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD2BE2522BCA881C0006DDE4 /* EditProfileView.swift in Sources */,
+				CDAA269B2BDFBA5900C6F629 /* InputView.swift in Sources */,
 				CD057DBB2BC69994005D58D2 /* ImageScrollingOverlay.swift in Sources */,
 				CD2BE24D2BCA81390006DDE4 /* CurrentUserProfileView.swift in Sources */,
 				CDEEF7FA2BC92825001782E9 /* UserProfileView.swift in Sources */,
@@ -405,7 +482,9 @@
 				CD057DBD2BC699A7005D58D2 /* SwipeActionIndicatorView.swift in Sources */,
 				CDCB51092BC69F5200672397 /* MockData.swift in Sources */,
 				CDEEF7F82BC92117001782E9 /* SwipeAction.swift in Sources */,
+				CDAA26962BDFAE9300C6F629 /* LoginView.swift in Sources */,
 				CD057DC12BC699CC005D58D2 /* MainTabView.swift in Sources */,
+				CDAA26982BDFAE9F00C6F629 /* RegistrationView.swift in Sources */,
 				CD057DA32BC69915005D58D2 /* ContentView.swift in Sources */,
 				CDEEF7F62BC91F6F001782E9 /* SwipeActionButtonsView.swift in Sources */,
 				CD1115882BCC56E400E8E1D0 /* MatchManager.swift in Sources */,
@@ -415,6 +494,8 @@
 				CDCB50F82BC69C4F00672397 /* CardStackView.swift in Sources */,
 				CD057DB72BC69977005D58D2 /* CardImageIndicatorView.swift in Sources */,
 				CD057DB92BC69985005D58D2 /* CardView.swift in Sources */,
+				CDAA26942BDFABAE00C6F629 /* AuthViewModel.swift in Sources */,
+				CDAA269D2BDFBAFC00C6F629 /* SettingsRowView.swift in Sources */,
 				CD057DA12BC69915005D58D2 /* DatingAppApp.swift in Sources */,
 				CDCB51032BC69E5A00672397 /* CardsViewModel.swift in Sources */,
 				CD057DC62BC699FF005D58D2 /* SizeConstants.swift in Sources */,
@@ -549,6 +630,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DatingApp/Preview Content\"";
@@ -578,6 +660,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DatingApp/Preview Content\"";
@@ -624,6 +707,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CDAA26852BDFA92B00C6F629 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CDAA26862BDFA92B00C6F629 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDAA26852BDFA92B00C6F629 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CDAA26882BDFA92B00C6F629 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDAA26852BDFA92B00C6F629 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		CDAA268A2BDFA92B00C6F629 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDAA26852BDFA92B00C6F629 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		CDAA268C2BDFA92B00C6F629 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDAA26852BDFA92B00C6F629 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CD057D952BC69915005D58D2 /* Project object */;
 }

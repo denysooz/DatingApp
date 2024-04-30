@@ -10,7 +10,7 @@ import SwiftUI
 struct UserInfoView: View {
     @Binding var showProfileSheet: Bool
 
-    let user: User
+    let user: UserProfile
 
     var body: some View {
         VStack(alignment: .leading) {

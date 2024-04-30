@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct CurrentUserProfileView: View {
+    @EnvironmentObject var viewModel: AuthViewModel
+
     @State private var showEditProfile = false
-    let user: User
+    
+    let user: UserProfile
     var body: some View {
         NavigationStack {
             List {
@@ -42,13 +45,14 @@ struct CurrentUserProfileView: View {
                 //logout/delete
                 Section {
                     Button("Logout") {
+                        viewModel.signOut()
                         print("DEBUG: Logout here...")
                     }
                     .foregroundStyle(.red)
                 }
                 Section {
                     Button("Delete Account") {
-                        print("DEBUG: Logout here...")
+                        print("DEBUG: Delete here...")
                     }
                     .foregroundStyle(.red)
                 }

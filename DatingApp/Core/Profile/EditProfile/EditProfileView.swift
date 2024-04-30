@@ -12,7 +12,7 @@ struct EditProfileView: View {
 
     @State private var bio = ""
     @State private var occupation = ""
-    let user: User
+    let user: UserProfile
 
     var body: some View {
         NavigationStack {

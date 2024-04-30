@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyC_ME3wuY36wRBEHKMHZ86WPOwwrn26AwU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>419798059769</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>denysooz.SwiftUIAuth</string>
+	<key>PROJECT_ID</key>
+	<string>swiftuiauth-368cd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>swiftuiauth-368cd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:419798059769:ios:0e950d43c66a03a276f028</string>
+</dict>
+</plist>

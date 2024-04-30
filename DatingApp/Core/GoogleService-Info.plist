@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCHvx6hGnfP1WyJneyzG1lpS0scIv0zAsQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1050365025642</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>denysooz.DatingApp</string>
+	<key>PROJECT_ID</key>
+	<string>datingapp-53505</string>
+	<key>STORAGE_BUCKET</key>
+	<string>datingapp-53505.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1050365025642:ios:f3ed358270be821a4b5913</string>
+</dict>
+</plist>

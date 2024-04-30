@@ -8,7 +8,7 @@
 import Foundation
 
 struct MockData {
-    static let users: [User] = [
+    static let users: [UserProfile] = [
         .init(id: NSUUID().uuidString,
               fullname: "Mary Yarmak",
               age: 18,
@@ -17,14 +17,7 @@ struct MockData {
               sexualOrientaion: "Straight",
               profileImageURLs: ["hottestGirl", "hottestGirl-2"]
         ),
-        .init(id: NSUUID().uuidString,
-              fullname: "Dima Volosyk",
-              age: 20,
-              bio: "Too many work to text to you",
-              gender: "Man",
-              sexualOrientaion: "Straight",
-              profileImageURLs: ["Dima"]
-        ),
+
         .init(id: NSUUID().uuidString,
               fullname: "Kate Bilida",
               age: 18,
@@ -42,16 +35,16 @@ struct MockData {
               profileImageURLs: ["max"]
         ),
         .init(id: NSUUID().uuidString,
-              fullname: "Yana Yana",
-              age: 21,
-              bio: "Aesthetic",
-              gender: "Woman",
+              fullname: "Dima Volosyk",
+              age: 20,
+              bio: "Too many work to text to you",
+              gender: "Man",
               sexualOrientaion: "Straight",
-              profileImageURLs: ["yana"]
+              profileImageURLs: ["Dima"]
         )
     ]
 
-    static let currentUser: User = .init(id: NSUUID().uuidString,
+    static let currentUser: UserProfile = .init(id: NSUUID().uuidString,
                                          fullname: "Deny Sooz",
                                          age: 19,
                                          bio: "Photoprogrammer",
@@ -59,4 +52,5 @@ struct MockData {
                                          sexualOrientaion: "Straight",
                                          profileImageURLs: ["boy"]
                                    )
+
 }
